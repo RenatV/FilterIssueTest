@@ -24,7 +24,6 @@ namespace FilterIssueTest.GraphQl
                 new Item
                 {
                     Id = 2,
-                    ItemSetting = null,
                     Categories = [ new Category
                     {
                         Name = "Cat2"

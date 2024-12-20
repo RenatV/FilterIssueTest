@@ -6,14 +6,14 @@ namespace FilterIssueTest.GraphQl
     {
         public int Id { get; set; }
 
-        public ItemSetting ItemSetting { get; set; }
+        public ItemSetting ItemSetting { get; set; } = new();
 
         public IEnumerable<Category> Categories { get; set; }
     }
 
     public class ItemSetting
     {
-        public int Data { get; set; }
+        public int? Data { get; set; }
     }
 
     public class Category
